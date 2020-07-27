@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<html>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="c/main.css"/>
+  <head>
+    <title>IllaVita</title>
+    <link rel="icon" href="a/fav.ico"/>
+  </head>
+  <body>
+    <br/>
+    <div class="top">
+    <h1><span>~</span><span>~</span><span>~</span><span>~</span><span>~</span>
+        <p class="t">IllaVita</p>
+        <span>~</span><span>~</span><span>~</span><span>~</span><span>~</span>
+    </h1>
+    </div>
+    <br/><br/><br/>
+    <div class="sec">
+      <h2>Login</h2>
+      <form class="standard">
+        <input                  id="username" placeholder="username"/>
+        <input  type="password" id="password" placeholder="password"/>
+        <button type="button" class="btn btn-success" onclick="login()">
+          Log&nbsp;&nbsp; in!</button>
+      </form>
+    </div>
+    <br/><br/>
+    <div class="sec">
+      <h2>Register</h2>
+      <form class="wconfirm">
+        <input                 id="nUsername" placeholder="username"/>
+        <input type="password" id="nPassword" placeholder="password"/><br>
+        <input type="password" id="cPassword" placeholder="confirm" class="cf"/>
+        <button type="button" class="btn btn-primary btcf" onclick="register()">
+          Sign up!</button>
+        <small id="passwordHelpBlock" class="form-text text-muted minimum">
+          Your password must be 7+ characters long</small>
+      </form>
+    </div>
+    <script src="s/main.js"></script>
+  </body>
+</html>
